@@ -1,0 +1,20 @@
+version: '3.3'
+networks:
+  web:
+    external: true
+services:
+  portfolio:
+    ports:
+      - '3000:3000'
+    hostname: portfolio.docker
+    build: .
+    image: portfolio
+    container_name: portfolio
+    networks:
+      - web
+    environment:
+      - PUID=1000
+      - GUID=1000
+    user: 1000:1000
+    volumes:
+      - $PWD/appdata:/config
