@@ -7,6 +7,8 @@ module.exports = {
     extend: {
       colors: {
         'twitter-blue': '#1DA1F2',
+        'charcoal':'#111111',
+        'linkedin-blue': '#0077b5'
       },
     }
   },
