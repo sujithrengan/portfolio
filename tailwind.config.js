@@ -8,7 +8,9 @@ module.exports = {
       colors: {
         'twitter-blue': '#1DA1F2',
         'charcoal':'#111111',
-        'linkedin-blue': '#0077b5'
+        'linkedin-blue': '#0077b5',
+        'steam-blue': '#77b5fe',
+        'google-red': '#DB4437'
       },
     }
   },
