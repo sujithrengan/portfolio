@@ -8,7 +8,7 @@ const Footer = () => {
                     <p>Built with Next.js, Tailwind and ❤️</p>
                     <div className="flex flex-wrap pt-2 sm:space-x-4 space-x-2 font-medium lg:pt-0">
                         <a href="#" className={"transition-colors hover:text-twitter-blue"} target="_blank" rel="noreferrer">Twitter</a>
-                        <a href="#" className={"transition-colors hover:text-yellow-500"} target="_blank" rel="noreferrer">LinkedIn</a>
+                        <a href="https://linkedin.com/in/sujithrengan" className={"transition-colors hover:text-yellow-500"} target="_blank" rel="noreferrer">LinkedIn</a>
                         <a href="#" className={"transition-colors hover:text-yellow-500"} target="_blank" rel="noreferrer">GitHub</a>
                     </div>
                 </div>
