@@ -1,5 +1,5 @@
 import React from "react"
-import Image from "next/image"
+// import Image from "next/image"
 import avatar from "../public/avatar.jpeg"
 
 const About = () => {
@@ -43,7 +43,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className="flex-shrink-0 lg:mt-12 lg:px-4 mb-10">
-                    <Image
+                    <img
                         src={avatar}
                         alt="Profile"
                         priority={true}
