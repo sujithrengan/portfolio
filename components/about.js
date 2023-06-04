@@ -1,6 +1,4 @@
 import React from "react"
-// import Image from "next/image"
-import avatar from "../public/avatar.jpeg"
 
 const About = () => {
     return (
@@ -44,9 +42,8 @@ const About = () => {
                 </div>
                 <div className="flex-shrink-0 lg:mt-12 lg:px-4 mb-10">
                     <img
-                        src={avatar}
+                        src="../public/avatar.jpeg"
                         alt="Profile"
-                        priority={true}
                         className="rounded-full"
                         width={250}
                         height={250}
